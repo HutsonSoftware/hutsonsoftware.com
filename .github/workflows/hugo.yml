@@ -30,12 +30,16 @@ jobs:
       - uses: actions/checkout@v4
 
       - uses: actions/configure-pages@v5
-        id: pages
 
+      # baseURL comes from hugo.toml on purpose. Deriving it from
+      # configure-pages' base_url output breaks whenever the custom domain
+      # isn't attached at build time: Pages reports the project-path URL
+      # (…github.io/hutsonsoftware.com) and Hugo bakes that prefix into
+      # every link.
       - name: Build
         env:
           HUGO_ENVIRONMENT: production
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --minify
 
       - uses: actions/upload-pages-artifact@v3
         with:
