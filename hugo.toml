@@ -7,6 +7,14 @@ enableRobotsTXT = true
 # No blog taxonomies on a company site.
 disableKinds = ["taxonomy", "term"]
 
+# No RSS either. There is no editorial content, and the feed republished every
+# page's full body, which is how a commented-out email address once ended up
+# public. Add RSS back deliberately if a blog ever lands here.
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  page = ["HTML"]
+
 [params]
   description = "Hutson Software, LLC builds and runs its own web applications."
   legalName = "Hutson Software, LLC"
