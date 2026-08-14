@@ -1,6 +1,8 @@
 ---
 title: "Track My Job"
 description: "A job-search tracker that pulls listings from company ATS feeds and follows each application through to a decision."
+aliases:
+  - /projects/trackmyjob/
 ---
 
 Track My Job aggregates job listings from company applicant tracking systems
