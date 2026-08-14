@@ -7,9 +7,7 @@ enableRobotsTXT = true
 # No blog taxonomies on a company site.
 disableKinds = ["taxonomy", "term"]
 
-# No RSS either. There is no editorial content, and the feed republished every
-# page's full body, which is how a commented-out email address once ended up
-# public. Add RSS back deliberately if a blog ever lands here.
+# No RSS. There is no editorial content to syndicate.
 [outputs]
   home = ["HTML"]
   section = ["HTML"]
@@ -18,9 +16,8 @@ disableKinds = ["taxonomy", "term"]
 [params]
   description = "Hutson Software, LLC builds and runs its own web applications."
   legalName = "Hutson Software, LLC"
-  # Set this once contact@hutsonsoftware.com exists in Workspace. The footer
-  # picks it up automatically. Deliberately blank rather than pointing at a
-  # personal address.
+  # Blank until a public contact address exists. The footer link is
+  # conditional on this value.
   email = ""
   github = "HutsonSoftware"
   since = 2013
