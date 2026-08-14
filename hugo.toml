@@ -10,7 +10,10 @@ disableKinds = ["taxonomy", "term"]
 [params]
   description = "Hutson Software, LLC — software built and run by Adam Hutson."
   legalName = "Hutson Software, LLC"
-  email = "[redacted]"
+  # Set this once contact@hutsonsoftware.com forwarding is live — the footer
+  # and contact page pick it up automatically. Deliberately blank rather than
+  # pointing at a personal address.
+  email = ""
   github = "HutsonSoftware"
   since = 2013
 

@@ -3,7 +3,7 @@
     <p>&copy; {{ now.Year }} {{ .Site.Params.legalName }}</p>
     <p class="footer-links">
       <a href="https://github.com/{{ .Site.Params.github }}">GitHub</a>
-      <a href="mailto:{{ .Site.Params.email }}">Email</a>
+      {{ with .Site.Params.email }}<a href="mailto:{{ . }}">Email</a>{{ end }}
     </p>
   </div>
 </footer>

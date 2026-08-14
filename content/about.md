@@ -11,4 +11,4 @@ Adam Hutson. It builds and operates its own web applications.
 
 ## Contact
 
-Business inquiries: [[redacted]](mailto:[redacted])
+See the [contact page](/contact/).
