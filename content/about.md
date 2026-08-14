@@ -1,13 +1,13 @@
 ---
 title: "About"
-description: "Hutson Software, LLC — an independent software company."
+description: "Hutson Software, LLC is an independent software company founded by Adam Hutson."
 ---
 
 Hutson Software, LLC is an independent software company founded by
 Adam Hutson. It builds and operates its own web applications.
 
-<!-- TODO: fill in from the LLC details — state of formation, formation date,
-     registered address, and any DBA. Nothing here should be guessed. -->
+Its first product is [Track My Job](/products/trackmyjob/), a job-search
+tracker, live since July 2026.
 
 ## Contact
 
