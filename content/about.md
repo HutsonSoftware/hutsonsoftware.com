@@ -11,4 +11,4 @@ Adam Hutson. It builds and operates its own web applications.
 
 ## Contact
 
-Business inquiries: [adam.hutson@yahoo.com](mailto:adam.hutson@yahoo.com)
+See the [contact page](/contact/).
