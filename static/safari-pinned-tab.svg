@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Safari mask icon: silhouette only, solid black on transparent.
+       A filled tile would render as a featureless black square, so this
+       uses the H itself, which is the same letterform the tile knocks out. -->
+  <rect x="13" y="8"  width="11" height="48" rx="2" fill="#000"/>
+  <rect x="40" y="8"  width="11" height="48" rx="2" fill="#000"/>
+  <rect x="13" y="22" width="38" height="10" rx="2" fill="#000"/>
+</svg>

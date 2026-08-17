@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <rect width="1200" height="1200" fill="#0f1115"/>
+  <g transform="translate(0,285)">
+    <mask id="og-h-cut">
+      <rect x="90" y="60" width="150" height="150" fill="#fff"/>
+      <rect x="137" y="93" width="17" height="70" fill="#000"/>
+      <rect x="177" y="93" width="17" height="70" fill="#000"/>
+      <rect x="137" y="116" width="57" height="17" fill="#000"/>
+    </mask>
+    <rect x="90" y="60" width="150" height="150" rx="35" fill="#7ea2ff" mask="url(#og-h-cut)"/>
+    <text x="90" y="330" font-family="Helvetica, Arial, sans-serif" font-size="86" font-weight="700" fill="#e7e9ee" letter-spacing="-2">Hutson Software</text>
+    <text x="90" y="394" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#99a1b0">Independent software studio</text>
+    <text x="90" y="530" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#7ea2ff">hutsonsoftware.com</text>
+  </g>
+</svg>
