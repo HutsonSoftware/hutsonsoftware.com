@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Hutson Software mark: an H knocked out of a solid tile.
+       The cut is a real mask, so the H is transparent and picks up
+       whatever it sits on. Pure geometry, no text elements, so it
+       renders identically regardless of installed fonts. -->
+  <mask id="h-cut">
+    <rect width="64" height="64" fill="#fff"/>
+    <rect x="20" y="17" width="7"  height="30" fill="#000"/>
+    <rect x="37" y="17" width="7"  height="30" fill="#000"/>
+    <rect x="20" y="27" width="24" height="7"  fill="#000"/>
+  </mask>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="#1f4fd8" mask="url(#h-cut)"/>
+</svg>

@@ -72,11 +72,20 @@ a:hover { text-decoration: none; }
   padding-block: 1.1rem;
 }
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   font-weight: 650;
   font-size: 1.05rem;
   letter-spacing: -0.01em;
   color: var(--fg);
   text-decoration: none;
+}
+/* The mark's H is a knockout, so it shows the header ground through it. */
+.brand-mark {
+  color: var(--accent);
+  flex: none;
+  display: block;
 }
 .site-header nav {
   display: flex;
