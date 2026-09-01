@@ -16,9 +16,8 @@ disableKinds = ["taxonomy", "term"]
 [params]
   description = "Hutson Software, LLC builds and runs its own web applications."
   legalName = "Hutson Software, LLC"
-  # Blank until a public contact address exists. The footer link is
-  # conditional on this value.
-  email = ""
+  # Role address, not a personal one. The footer link is conditional on this.
+  email = "contact@hutsonsoftware.com"
   github = "HutsonSoftware"
   since = 2013
 
